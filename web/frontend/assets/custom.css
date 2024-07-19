@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+.add-request-main {
+    background-color: #f1f1f1;
+}
+#app {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #303030;
+    font-weight: 500;
+}
+.Titlebar .Polaris-Text--headingXl {
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+.Polaris-Text--headingLg {
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #303030;
+}
+.mainRequest .Polaris-ButtonGroup {
+    align-items: end;
+}
+.Polaris-IndexFilters-FilterButton{
+    border-radius: 8px;;
+}
+.requestActions .Polaris-ButtonGroup {
+    justify-content: right;
+    align-items: start;
+    margin: 20px 0;
+}
+.CustomerDetails p {
+    margin-bottom: 10px;
+    color: #616161;
+}
+.requestInner p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #303030;
+}
+.tableIconBox, .brandBox {
+    display: flex;
+    align-items: center;
+}
+.brandBox .Polaris-Thumbnail{
+    margin-right: 10px;
+}
+.modalBoxOuter .Polaris-Frame{
+    min-height: auto;
+}
+.modalBoxOuter .Polaris-Button, .modalBoxOuter .Polaris-Button:after {
+    border: none;
+    background: transparent;
+    box-shadow: none;
+}
+.mainRequest {
+    background-color: #efefef;
+    padding: 20px 40px;
+}
+.Titlebar {
+    padding: 40px 0;
+}
+.titleBarButton{
+    text-align: right;
+}
+#app .Polaris-Box .Polaris-Button {
+    border-radius: 9px;
+}
+.titleBarButton .Polaris-Button, #app .Polaris-Box .Polaris-Button--primary {
+    background: #303030;
+    color: #fff;
+    border-radius: 9px;
+    box-shadow: 0px 1px 0px 0px #000 inset, 0px -1px 0px 1px #000 inset, -2px 0px 0px 0px rgba(255, 255, 255, 0.20) inset, 2px 0px 0px 0px rgba(255, 255, 255, 0.20) inset, 0px 2px 0px 0px rgba(255, 255, 255, 0.20) inset;
+}
+#app .Polaris-Modal-Dialog__Modal {
+    border-radius: 16px;
+}
+.Polaris-Frame {
+    background-color: transparent;
+}
+.Polaris-LegacyCard {
+    border-radius: 16px;
+}
+.Polaris-FormLayout .Polaris-LegacyStack {
+    margin-top: 0;
+}
+.Polaris-Button.Polaris-Button--pressed {
+    background-color: #cccccc;
+    color: #303030;
+    border-color: #cccccc;
+    box-shadow: inset 0rem 0.125rem 0.25rem #cccccc;
+}
+[data-buttongroup-segmented='true'] > :first-child .Polaris-Button{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+[data-buttongroup-segmented='true'] > :last-child .Polaris-Button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.customProductSection {
+    display: grid;
+    grid-template-columns: 20% 78%;
+    gap: 10px;
+}
+.Polaris-Button svg {
+    fill: #000;
+}
+/* .datePickerC {
+    padding-bottom: 20px;
+} */
+.CustomNewRequest {
+    display: grid;
+    grid-template-columns: 76% 20%;
+    gap: 40px;
+}
+/* .Polaris-AlphaTabs__Outer {
+    display: none;
+} */
+.availSection .tableIconBox .modalBoxOuter:first-child{
+    display: none;
+}
+.spinner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px;
+}
+.emptyStateContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+.emptyState{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.emptyImg{
+    width: 150px;
+}
+.emptyImg img{
+    width: 100%;
+}
+.selectProduct{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.inventory{
+    padding-right: 20px;
+}
+.selectProduct:hover {
+    background-color: rgb(242, 241, 241);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+.table_date{
+    padding-top: 11px;
+    margin-left: -18px;
+}
